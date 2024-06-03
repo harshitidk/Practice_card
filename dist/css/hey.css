@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  background-color: #ff9700;
+  padding: 40px 100px;
+  margin: 120px;
+  padding-bottom: 150px;
+  font-weight: bold;
+  border-radius: 50px 50px 50px 270px;
+}
+
+.container-left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-left-quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-left-quote-colon {
+  font-size: 257px;
+}
+
+.container-left-quote-text {
+  font-size: 40px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.container-left-date {
+  position: relative;
+  right: 35px;
+  font-size: 15px;
+  color: white;
+}
+
+.container-left-date-year {
+  color: #ebebeb;
+}
+
+.container-left-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-left-right-timeline-no {
+  color: black;
+}
+/*# sourceMappingURL=hey.css.map */

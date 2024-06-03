@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$background-color: #ffffff;
+$primary-color: #ffffff;
+$accent-color: #ff9700;
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Montserrat", sans-serif;
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    color: $primary-color;
+    font-family: $primary-font;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: $accent-color;
+    padding: 40px 100px;
+    margin: 120px;
+    padding-bottom: 150px;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 270px;
+    &-left{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-quote{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+            &-colon{
+                font-size: 257px;
+            }
+            &-text{
+                font-size: 40px;
+                width: 350px;
+                margin-top: 50px;
+            }
+        }
+        &-date{
+            position: relative;
+            right: 35px;
+            font-size: 15px;
+            color: white;
+            &-year{
+                color: #ebebeb;
+        }
+    }
+    &-right{
+        display: flex;
+        &-timeline{
+            &-no{
+                color: black;
+            }
+        }
+    }
+}
+}
+
+
+//     .quote{
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         align-items: center;
+//         .colon{
+//             font-size: 257px;
+//         }
+//         .text{
+//             font-size: 40px;
+//             width: 350px;
+//             margin-top: 50px;
+//         }
+//     }
+//     .date{
+//         font-size: 15px;
+//         color: white;
+//         .date-year{
+//             color: #EBEBEB;
+//         }
+//     }
+// }
